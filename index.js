@@ -3,7 +3,7 @@
 const yargs = require("yargs");
 
 const options = yargs
-    .usage("Usage: -i <json_file>")
+    .usage("Usage: -i <json_file> -o <html_file>")
     .option("i", { alias: "json_file", describe: "JSON file used for conversion", type: "string", demandOption: true })
     .option("o", { alias: "html_file", describe: "HTML file used for output", type: "string", demandOption: true })
     .argv;
