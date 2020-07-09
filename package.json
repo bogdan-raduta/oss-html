@@ -1,0 +1,20 @@
+{
+  "name": "oss-html",
+  "version": "1.0.0",
+  "description": "parse oss scanner and generate html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "oss-html": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "stream-json": "^1.5.0",
+    "yamljs": "^0.3.0",
+    "yargs": "^13.2.4"
+  }
+}
