@@ -7,7 +7,12 @@ oss-html is a node.js command line for parsing and generating html file from OSS
 Use the package manager [npm](https://www.npmjs.com/get-npm) to install oss-html.
 
 ```bash
-npm install -g oss-html
+git clone 
+npm install
+
+#for use
+
+npm install -g .
 ```
 
 ## Usage
