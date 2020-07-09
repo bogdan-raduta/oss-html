@@ -15,6 +15,14 @@ npm install -g oss-html
 ```commandline
 oss-html -i scan.json -o scan.html
 
+Usage: -i <json_file> -o <html_file>
+
+Options:
+  --help           Show help                                           [boolean]
+  --version        Show version number                                 [boolean]
+  -i, --json_file  JSON file used for conversion             [string] [required]
+  -o, --html_file  HTML file used for output                 [string] [required]
+
 ```
 
 ## Contributing
