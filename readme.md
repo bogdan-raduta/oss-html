@@ -1,13 +1,18 @@
 # oss-html
 
-oss-html is a node.js command line for parsing and generating html file from OSS scanning JSON output.
+oss-html is a node.js command line for parsing and generating html file from OSS review toolkit scanning JSON output.
 
 ## Installation
 
 Use the package manager [npm](https://www.npmjs.com/get-npm) to install oss-html.
 
 ```bash
-npm install -g oss-html
+git clone 
+npm install
+
+#for use
+
+npm install -g .
 ```
 
 ## Usage
