@@ -110,7 +110,9 @@ const processingAnalyzer = (object) => {
     })
     object.packages = itemsPkg;
     delete object.result;
+    
     analyzerObj = object;
+ 
 }
 
 
@@ -131,7 +133,7 @@ const processingRepository = (object) => {
 
 /* utils */
 const parseSPDXExpresion = (value) => {
-    const filter = value.replace(' AND ', ' ').replace(' WITH ', ' ').replace(' OR ', '');
+    const filter = value.replace(' AND ', ' ').replace(' WITH ', ' ').replace(' OR ', ' ');
     var values = filter.split(' ');
     var returnobject = { original: value, extracted: [] }
     for (var i = 0; i < values.length; i++) {
